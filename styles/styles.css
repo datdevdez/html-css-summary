@@ -1,0 +1,93 @@
+/***** DOCUMENT SETUP *****/
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgb(144, 183, 218);
+    text-align: center;
+}
+
+main {
+    border: 1px solid rgb(14, 35, 51);
+    border-radius: 10px;
+    background-color: rgb(14, 35, 51);
+    padding: 30px 30px;
+    text-align: left;
+    line-height: 30px;
+    margin: 80px 0px 40px;
+}
+
+
+/***** HEADERS *****/
+h1 {
+    font-size: 70px;
+    color: rgb(14, 35, 51);
+}
+
+h1,
+.section-headers {
+    font-family: Roboto, Sans-Serif;
+    font-weight: bolder;
+}
+
+
+/***** MAIN SECTION *****/
+section {
+    font-family: Lora, Serif;
+    color: rgb(144, 183, 218);
+}
+
+
+/***** FOOTER *****/
+footer {
+    color: rgb(0,0,0);
+    margin: 50px 0px 100px;
+}
+
+/***** STYLING & DECORATIONS *****/
+
+.yellow-box {
+    border: 1px solid rgb(14, 35, 51);
+    border-radius: 5px;
+    background-color: rgb(246, 242, 212);
+    color: rgb(14, 35, 51);
+    font-weight: bold;
+    padding: 2px;
+}
+
+.yellow-line {
+    border-left: 4px solid rgb(246, 242, 212);
+    padding-left: 15px;
+    color: rgb(246, 242, 212);
+}
+
+#pdf-box {
+    border: 1px solid rgb(144, 183, 218);
+    border-radius: 5px;
+    background-color: rgb(250, 201, 39);
+    color: rgb(14, 35, 51);
+    font-weight: bold;
+    padding: 10px;
+}
+
+#pdf-box,
+.yellow-box {
+    text-decoration-line: none;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(211, 102, 0);
+}
+
+#pdf-box:hover,
+#pdf-box:active {
+    background-color: rgb(211, 102, 0);
+}
+
+#bold {
+    font-weight: bolder;
+}
+
+.indent {
+    text-indent: 20px;
+}

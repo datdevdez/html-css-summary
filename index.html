@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Summary</title>
+
+    <!-- Style Sheet Link-->
+    <link href='styles/styles.css' rel="stylesheet">
+
+    <!-- Google Fonts Link-->
+    <link href="https://fonts.googleapis.com/css?family=Lora|Roboto:400,700" rel="stylesheet">
+</head>
+
+<!-- Visble Page Content Starts Here-->
+<body>
+    <header class='page-header'>
+        <h1>HTML & CSS Basics Summary</h1>
+        <img id='header-img' src='images-and-files/html-css.png' alt='HTML & CSS Logos' height=200px weight=200px>
+    </header>
+    
+    <main id='page-block'>
+        <!-- Section 1: HTML Summary-->
+        <section>
+            <h2 class='section-headers'>HTML Summary</h2>
+                <p>HTML (HyperText Markup Language) is used to define our page content, structure and meaning.
+                    You <span id='bold'>don't</span> use it for styling purposes. Use CSS for that instead!</p>
+                <p class='yellow-line'>HTML uses "elements" to describe (annotate) content</p>
+                <p class='indent'> HTML elements typically have an opening tag, content and then a closing tag</p>
+                <p class='yellow-line'>You can also have void (empty) elements like images</p>
+                <p class='yellow-line'>You can also configure elements with attributes</p>
+                <p class='indent'>There's a long list of available elements but you'll gain experience over time, no worries</p>
+                <p>Learn more about all available HTML elements on <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Reference' class='yellow-box' target=_blank>the MDN HTML element reference</a> .</p>
+        </section>
+
+
+        <!-- Section 2: CSS Summary-->
+        <section>
+            <h2 class='section-headers'>CSS Summary</h2>
+                <p>CSS (Cascading Style Sheets) is used for styling your page content.</p>
+                <p class='indent'>Styles are assigned via property-value pairs</p>
+                <p class='indent'>You can assign styles via the "style" attribute</p>
+                <p class='yellow-line'>To avoid code duplication, you typically use global styles (e.g. via the "style" element) instead</p>
+                <p class='indent'>Alternatively, you can work with external stylesheet files which you "link" to</p>
+                <p class='yellow-line'>When working with CSS, concepts like "inheritance," "specificity" and the "box model" should be understood</p>
+                <p>Learn more about all available CSS properties and values on <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/Reference' class='yellow-box' target=_blank>the MDN CSS property reference</a> .</p>
+        </section>
+    </main>
+
+    <!-- PDF Link Box-->
+    <a href='images-and-files/html-css-basics-summary.pdf' id='pdf-box' target=_blank> Download PDF Summary</a>
+
+    <!-- Footer -->
+    <footer>
+        (c) Academind GmbD. Replicated by Dezmond Williams, @datdevdez
+    </footer>
+    
+</body>
+</html>
