@@ -2,7 +2,7 @@ Project Name: HTML & CSS Summary Page
 
 Project Developer: Dezmond Williams
 
-Project Link: https://datdevdez.github.io/htmlcsssummary/
+Project Link: https://datdevdez.github.io/html-css-summary/
 
 Project Description:
 
